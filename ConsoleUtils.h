@@ -6,6 +6,7 @@
 
 namespace ConsoleUtils {
     inline void clearConsole() {
+      (void)getchar();
       puts("\033[2J\033[H");
     }
     inline void printNewLine() {
